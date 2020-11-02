@@ -2,7 +2,7 @@
 
 We will now consider the other important quantity that we need in order to calculate the statistic that we will use to solve the farmer's problem that was introduced in the previous but one task.  This quantity is called the treatment sum of squares (![](https://render.githubusercontent.com/render/math?math=SS_T)).  Once again we will assume that we have t samples the jth of which contains ![](https://render.githubusercontent.com/render/math?math=n_j) data points.  The treatment sum of squares is defined as:
 
-![](https://render.githubusercontent.com/render/math?math=SS_T=\sum_{j=1}^t\sum_{i=1}^{n_j}(\overline{X}_j-\overline{X})^2\qquad\textrm{where}\qquad\overline{X}_j=\frac{1}{n_j}\sum_{i=1}^{n_j}X_i\qquad\textrm{and}\qquad\overline{X}=\frac{1}{t}\sum_{=1}^t\overline{X}_j)
+![](https://render.githubusercontent.com/render/math?math=SS_T=\sum_{j=1}^t\sum_{i=1}^{n_j}(\overline{X}_j-\overline{X})^2\qquad\textrm{where}\qquad\overline{X}_j=\frac{1}{n_j}\sum_{i=1}^{n_j}X_i\qquad\textrm{and}\qquad\overline{X}=\frac{1}{t}\sum_{j=1}^t\overline{X}_j)
 
 In these expressions, ![](https://render.githubusercontent.com/render/math?math=X_i) is just a random variable.  ![](https://render.githubusercontent.com/render/math?math=\overline{X_j}) is thus a sample mean that has been computed using the ![](https://render.githubusercontent.com/render/math?math=n_j) data points in the jth sample.  ![](https://render.githubusercontent.com/render/math?math=\overline{X}), meanwhile, is a sample mean that has been computed using the data in all T samples.  
 
